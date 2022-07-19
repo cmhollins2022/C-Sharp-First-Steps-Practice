@@ -23,3 +23,8 @@ What is a literal value?
 
 **Presentation versus calculation and evaluation**
 - Strings and chars are used for "presentation, not calculation". If you need to perform a mathematical operation on numeric values, you should use an int or decimal. If you have data that is used for presentation or reference purposes only, you should use a string or char data type.
+
+**What is a variable?**
+- A variable is a data item that may change its value during its lifetime. You use variables to temporarily store values that you intend to use later in your code. 
+- A variable is a friendly label that we can assign to a computer memory address. When we want to temporarily store a value in that memory address, or whenever we want to retrieve the value that is stored in the memory address, we just use the variable name we created.
+
