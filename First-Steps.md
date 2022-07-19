@@ -22,7 +22,8 @@ What is a literal value?
 - Data types play a central role in C#. In fact, the emphasis on data types is one of the key distinguishing features of C# compared to other languages like **Python** and **JavaScript**. The designers of C# believed they can help developers avoid common software bugs by enforcing data types.
 
 **Presentation versus calculation and evaluation**
-- Strings and chars are used for "presentation, not calculation". If you need to perform a mathematical operation on numeric values, you should use an int or decimal. If you have data that is used for presentation or reference purposes only, you should use a string or char data type.
+- Strings and chars are used for "presentation, not calculation". 
+- If you need to perform a mathematical operation on numeric values, you should use an int or decimal. If you have data that is used for presentation or reference purposes only, you should use a string or char data type.
 
 **What is a variable?**
 - A variable is a data item that may change its value during its lifetime. You use variables to temporarily store values that you intend to use later in your code. 
