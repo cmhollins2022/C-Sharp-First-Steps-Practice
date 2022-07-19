@@ -30,7 +30,8 @@ What is a literal value?
 
 **Variable name examples**
 
-``` char userOption;
+```
+char userOption;
 
 int gameScore;
 
