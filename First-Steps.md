@@ -28,3 +28,12 @@ What is a literal value?
 - A variable is a data item that may change its value during its lifetime. You use variables to temporarily store values that you intend to use later in your code. 
 - A variable is a friendly label that we can assign to a computer memory address. When we want to temporarily store a value in that memory address, or whenever we want to retrieve the value that is stored in the memory address, we just use the variable name we created.
 
+**Variable name examples**
+
+``` char userOption;
+
+int gameScore;
+
+decimal particlesPerMillion;
+
+bool processedCustomer;```
