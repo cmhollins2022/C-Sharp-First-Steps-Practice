@@ -19,4 +19,4 @@ What is a literal value?
   - ```Console.WriteLine(false);```
 
 **Why emphasize data types?**
-Data types play a central role in C#. In fact, the emphasis on data types is one of the key distinguishing features of C# compared to other languages like Python and JavaScript. The designers of C# believed they can help developers avoid common software bugs by enforcing data types.
+- Data types play a central role in C#. In fact, the emphasis on data types is one of the key distinguishing features of C# compared to other languages like **Python** and **JavaScript**. The designers of C# believed they can help developers avoid common software bugs by enforcing data types.
