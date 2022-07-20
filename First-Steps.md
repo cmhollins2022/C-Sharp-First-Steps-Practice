@@ -84,3 +84,12 @@ The ```\n``` sequence will add a new line, and a ```\t``` sequence will add a ta
 A verbatim string literal will keep all whitespace and characters without the need to escape the backslash. To create a verbatim string, use the ```@``` directive before the literal string. Two consecutive double-quote characters (```""```) are printed as a single double-quote character (```"```) in the output string.
 
 You can also add encoded characters in literal strings using the ```\u``` escape sequence, then a four-character code representing some character in Unicode (UTF-16).
+
+**What is string concatenation?**
+
+Concatenate a literal string and a variable:
+```
+string firstName = "Bobby";
+string message = "Hello" + firstName;
+Console.WriteLine(message);
+
