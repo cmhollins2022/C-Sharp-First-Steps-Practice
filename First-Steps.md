@@ -38,3 +38,5 @@ int gameScore;
 decimal particlesPerMillion;
 
 bool processedCustomer;```
+
+**Asigning Variables
