@@ -9,11 +9,14 @@ What is a literal value?
 
 **Write a char literal to the console...**
 - ```Console.WriteLine('b');```
+
 **Write a char int to the console...**
 - ```Console.WriteLine('123');```
+ 
 **Write a char decimal to the cons...**
 - ```Console.WriteLine('12.30m');```
   - (Without the literal suffix m, the decimal number in the previous example will be treated as type double by the compiler and the output will be 12.3.)
+
 **Write a bool literal to the console...**
 - ```Console.WriteLine(true);```
 - ```Console.WriteLine(false);```
