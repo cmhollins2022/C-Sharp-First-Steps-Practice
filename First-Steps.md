@@ -9,7 +9,7 @@ What is a literal value?
 
 **Write a char literal to the console...**
 - ```Console.WriteLine('b');```
-**Write a char literal to the console...**
+**Write a char int to the console...**
 - ```Console.WriteLine('123');```
 **Write a char decimal to the cons...**
 - ```Console.WriteLine('12.30m');```
