@@ -95,7 +95,7 @@ Console.WriteLine(message);
 ```
 Concatenate multiple variables and literal strings:
 ```
-string firstName = "Bob";
+string firstName = "Bobby";
 string greeting = "Hello";
 string message = greeting + " " + firstName + "!";
 Console.WriteLine(message);
