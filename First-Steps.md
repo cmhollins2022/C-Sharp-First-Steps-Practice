@@ -102,3 +102,5 @@ Console.WriteLine(message);
 ```
 **What is string interpolation?**
 An interpolation expression is a variable surrounded by an opening and closing curly brace symbol ```{ }```. The literal string becomes a template when it's prefixed by the ```$``` character.
+
+```string message = $"{greeting} {firstName}!";```
