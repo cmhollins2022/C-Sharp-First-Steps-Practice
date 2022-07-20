@@ -46,3 +46,15 @@ String firstName;
 firstName = "Bobby";
 Console.WriteLine(firstName);
 ```
+**Reassigning variables:**
+```
+string firstName;
+firstName = "Bob";
+Console.WriteLine(firstName);
+firstName = "Charles";
+Console.WriteLine(firstName);
+firstName = "Jerome";
+Console.WriteLine(firstName);
+firstName = "Grant";
+Console.WriteLine(firstName);
+```
