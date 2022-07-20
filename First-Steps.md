@@ -65,4 +65,5 @@ string firstName = "Bobby";
 Console.WriteLine(firstName);
 ```
 **What are implicitly typed local variables?**
-An implicitly typed local variable is created using the var keyword, which instructs the C# compiler to infer the type. After the type is inferred, it's the same as if the actual data type had been used to declare the variable.
+- An implicitly typed local variable is created using the var keyword, which instructs the C# compiler to infer the type. After the type is inferred, it's the same as if the actual data type had been used to declare the variable.
+- The var keyword is dependent on the value you use to initialize the variable.
