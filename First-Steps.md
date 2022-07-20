@@ -37,6 +37,12 @@ int gameScore;
 
 decimal particlesPerMillion;
 
-bool processedCustomer;```
+bool processedCustomer;
+```
 
-**Asigning Variables
+**Asigning Variables**
+```
+String firstName;
+firstName = "Bobby";
+Console.WriteLine(firstName);
+
