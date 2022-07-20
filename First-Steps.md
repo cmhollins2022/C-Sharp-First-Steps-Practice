@@ -58,3 +58,9 @@ Console.WriteLine(firstName);
 firstName = "Grant";
 Console.WriteLine(firstName);
 ```
+Set the value as soon as possible after you declare it. In fact, you can perform both the **declaration** and **setting** the value of the variable in one line of code. This technique is called initializing the variable.
+
+```
+string firstName = "Bobby";
+Console.WriteLine(firstName);
+```
