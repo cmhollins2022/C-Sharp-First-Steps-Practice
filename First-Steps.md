@@ -78,3 +78,5 @@ int inboxMessages = 3;
 decimal degreesCelcius = 34.4m;
 Console.WriteLine($"Hello {firstName}! You have {inboxMessages} messages in your inbox. The temperature is {degreesCelcius} celcius");
 ```
+### Character Escape Sequences and Verbatim Strings
+The ```\n``` sequence will add a new line, and a ```\t``` sequence will add a tab. When wanting to add a quotation mark within a literal string, use the ```\"``` escape sequence, with ```\``` being the escape character.
