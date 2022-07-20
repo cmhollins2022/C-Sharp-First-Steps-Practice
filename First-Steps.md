@@ -82,3 +82,5 @@ Console.WriteLine($"Hello {firstName}! You have {inboxMessages} messages in your
 The ```\n``` sequence will add a new line, and a ```\t``` sequence will add a tab. When wanting to add a quotation mark within a literal string, use the ```\"``` escape sequence, with ```\``` being the escape character. If you need to use the backslash for other purposes, like to display a file path use the ```\\``` to display a single backslash.
 
 A verbatim string literal will keep all whitespace and characters without the need to escape the backslash. To create a verbatim string, use the ```@``` directive before the literal string. Two consecutive double-quote characters (```""```) are printed as a single double-quote character (```"```) in the output string.
+
+You can also add encoded characters in literal strings using the ```\u``` escape sequence, then a four-character code representing some character in Unicode (UTF-16).
