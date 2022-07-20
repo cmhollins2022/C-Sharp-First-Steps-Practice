@@ -92,7 +92,7 @@ Concatenate a literal string and a variable:
 string firstName = "Bobby";
 string message = "Hello" + firstName;
 Console.WriteLine(message);
-
+```
 Concatenate multiple variables and literal strings:
 ```
 string firstName = "Bob";
