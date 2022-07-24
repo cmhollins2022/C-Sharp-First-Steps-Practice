@@ -122,4 +122,7 @@ View English output:
 		c:\Exercise\ACME\ru-RU\data.txt
 ```
 ### Perform basic operations on numbers in C#
-- To add two numbers together, we'll use the addition operator, which is the plus symbol ```+```
+To add two numbers together, we'll use the addition operator, which is the plus symbol 
+- You should probably avoid performing both a calculation and concatenation in a single line of code.
+- When it can, the C# compiler will implicitly convert an int into a string if it's obvious that the developer is trying to concatenate the string representation of a number for presentation purposes.
+- Use parentheses to define an order of operations to explicitly tell the compiler that we want to perform certain operations before other operations.
