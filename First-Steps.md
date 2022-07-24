@@ -180,3 +180,9 @@ When calling a stateful method, you need to create an instance of the class, and
 Use the ```new``` operator to create a new instance of a class.
 
 An instance of a class is called an object.
+
+```
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
+```
