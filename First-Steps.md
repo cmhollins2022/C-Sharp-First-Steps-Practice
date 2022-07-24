@@ -105,7 +105,7 @@ An interpolation expression is a variable surrounded by an opening and closing c
 
 ```string message = $"{greeting} {firstName}!";```
 
-**Put it all together:**
+**Put it all together...**
 ```
 string projectName = "ACME";
 Console.WriteLine($@"View English output:
@@ -158,3 +158,14 @@ value++;
 These same techniques can be used for subtraction, multiplication and more. 
 
 If you use the operator before the value as in ```++value```, then the increment will happen before the value is retrieved. Likewise, ```value++``` will increment the value after the value has been retrieved.
+
+**Put it all togther...**
+```
+int fahrenheit = 94;
+// To convert temperatures in degrees Fahrenheit to Celsius, first subtract 32, then multiply by five ninths (5 / 9).
+decimal decimalQuotient = 5/9.0m;
+Console.WriteLine($"The temperature is {(fahrenheit - 32) * decimalQuotient} Celsius.");
+```
+```
+The temperature is 34.444444444444444444444444447 Celsius.
+```
