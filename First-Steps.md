@@ -143,7 +143,7 @@ While there's no exponent operator in C#, you can use the ```System.Math.Pow()``
 
 **Increment and decrement**
 
-The += operator adds and assigns the value on the right of the operator to the value on the left of the operator. So, lines two and three in the following code snippet are the same:
+The ```+=``` operator adds and assigns the value on the right of the operator to the value on the left of the operator. So, lines two and three in the following code snippet are the same:
 ```
 int value = 0;
 value = value + 5;
