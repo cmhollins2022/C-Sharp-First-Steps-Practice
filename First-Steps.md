@@ -187,8 +187,8 @@ int roll = dice.Next(1, 7);
 Console.WriteLine(roll);
 ```
 **Overloaded methods**
-- Many methods in the .NET Class Library have overloaded method signatures.
-- An overloaded method is defined with multiple method signatures. Overloaded methods provide different ways to call the method or provide different types of data.
+Many methods in the .NET Class Library have overloaded method signatures.
+An overloaded method is defined with multiple method signatures. Overloaded methods provide different ways to call the method or provide different types of data.
 ```
 Random dice = new Random();
 int roll1 = dice.Next();
@@ -199,8 +199,8 @@ Console.WriteLine($"First roll: {roll1}");
 Console.WriteLine($"Second roll: {roll2}");
 Console.WriteLine($"Third roll: {roll3}");
 ```
-The first version of the Next() method doesn't set an upper and lower boundary, so the method will return values ranging from 0 to 2,147,483,647, which is the maximum value an int can store.
+- The first version of the Next() method doesn't set an upper and lower boundary, so the method will return values ranging from 0 to 2,147,483,647, which is the maximum value an int can store.
 
-The second version of the Next() method specifies the maximum value as an upper boundary, so in this case, we can expect a random value between 0 and 100.
+- The second version of the Next() method specifies the maximum value as an upper boundary, so in this case, we can expect a random value between 0 and 100.
 
-The third version of the Next() method specifies both the minimum and maximum values, so in this case, we can expect a random value between 50 and 100.
+- The third version of the Next() method specifies both the minimum and maximum values, so in this case, we can expect a random value between 50 and 100.
