@@ -121,3 +121,5 @@ View English output:
 Посмотреть русский вывод:
 		c:\Exercise\ACME\ru-RU\data.txt
 ```
+### Perform basic operations on numbers in C#
+- To add two numbers together, we'll use the addition operator, which is the plus symbol ```+```
