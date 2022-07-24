@@ -136,3 +136,5 @@ To add two numbers together, we'll use the addition operator, which is the plus 
 ```/``` is the division operator
 
 Three uses, or overloads: for the parenthesis operator: method invocation, order of operations and casting.
+
+The remainder operator ```%``` tells you the remainder of int division.
