@@ -115,7 +115,6 @@ Console.WriteLine($@"{russianMessage}:
        c:\Exercise\{projectName}\ru-RU\data.txt");
 ```
 ```
-Output:
 View English output:
 		c:\Exercise\ACME\data.txt
 
