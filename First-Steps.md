@@ -142,6 +142,7 @@ The remainder operator ```%``` tells you the remainder of int division.
 While there's no exponent operator in C#, you can use the ```System.Math.Pow()``` method, which is available from the .NET Class Library.
 
 **Increment and decrement**
+
 The += operator adds and assigns the value on the right of the operator to the value on the left of the operator. So, lines two and three in the following code snippet are the same:
 ```
 int value = 0;
