@@ -139,4 +139,4 @@ Three uses, or overloads: for the parenthesis operator: method invocation, order
 
 The remainder operator ```%``` tells you the remainder of int division.
 
-While there's no exponent operator in C#, you can use the System.Math.Pow() method, which is available from the .NET Class Library.
+While there's no exponent operator in C#, you can use the ```System.Math.Pow()``` method, which is available from the .NET Class Library.
