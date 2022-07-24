@@ -156,3 +156,5 @@ value = value + 1;
 value++;
 ```
 These same techniques can be used for subtraction, multiplication and more. 
+
+If you use the operator before the value as in ```++value```, then the increment will happen before the value is retrieved. Likewise, ```value++``` will increment the value after the value has been retrieved.
