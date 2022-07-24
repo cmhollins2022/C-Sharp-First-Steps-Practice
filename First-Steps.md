@@ -149,7 +149,7 @@ int value = 0;
 value = value + 5;
 value += 5;
 ```
-The ++ operator increments the value of the variable by 1. So, lines two and three in the following code snippet are the same:
+The ```++``` operator increments the value of the variable by 1. So, lines two and three in the following code snippet are the same:
 ```
 int value = 0;
 value = value + 1;
