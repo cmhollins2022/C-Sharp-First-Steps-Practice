@@ -169,3 +169,5 @@ Console.WriteLine($"The temperature is {(fahrenheit - 32) * decimalQuotient} Cel
 ```
 The temperature is 34.444444444444444444444444447 Celsius.
 ```
+
+### Call methods from the .NET Class Library using C# 
