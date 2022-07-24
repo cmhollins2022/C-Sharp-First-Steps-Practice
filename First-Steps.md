@@ -126,3 +126,8 @@ To add two numbers together, we'll use the addition operator, which is the plus 
 - You should probably avoid performing both a calculation and concatenation in a single line of code.
 - When it can, the C# compiler will implicitly convert an int into a string if it's obvious that the developer is trying to concatenate the string representation of a number for presentation purposes.
 - Use parentheses to define an order of operations to explicitly tell the compiler that we want to perform certain operations before other operations.
+
+```+``` is the addition operator
+```-``` is the subtraction operator
+```*``` is the multiplication operator
+```/``` is the division operator
