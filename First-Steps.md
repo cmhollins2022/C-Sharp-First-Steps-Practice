@@ -204,3 +204,12 @@ Console.WriteLine($"Third roll: {roll3}");
 - The second version of the ```Next()``` method specifies the maximum value as an upper boundary, so in this case, we can expect a random value between ```0``` and ```100```.
 
 - The third version of the ```Next()``` method specifies both the minimum and maximum values, so in this case, we can expect a random value between ```50``` and ```100```.
+
+**Put it all together...**
+```
+int firstValue = 500;
+int secondValue = 600;
+int largerValue = System.Math.Max(firstValue, secondValue);
+
+Console.WriteLine(largerValue);
+```
