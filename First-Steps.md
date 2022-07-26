@@ -215,3 +215,13 @@ Console.WriteLine(largerValue);
 ```
 ### Add decision logic to your code using `if`, `else`, and `else if` statements in C#
 
+Use an ```if``` statement to branch your code logic. The if decision statement will execute code in its code block if its Boolean expression equates to true. Otherwise, the runtime will skip over the code block and continue to the next line of code after the code block.
+
+A Boolean expression is any expression that returns a Boolean value.
+Boolean operators will compare the two values on its left and right for equality, comparison, and more.
+
+A code block is defined by curly braces ```{ }```. It collects lines of code that should be treated as a single unit.
+
+The logical AND operator ```&&``` aggregates two expressions so that both subexpressions must be true in order for the entire expression to be true.
+
+The logical OR operator ```||``` aggregates two expressions so that if either subexpression is true, the entire expression is true.
