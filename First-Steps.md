@@ -220,8 +220,19 @@ Use an ```if``` statement to branch your code logic. The if decision statement w
 A Boolean expression is any expression that returns a Boolean value (```true``` or ```false```).
 Boolean operators will compare the two values on its left and right for equality, comparison, and more.
 
+Other simple Boolean expressions can be created by using operators to compare two values. Operators include:
+
+- ```==```, the "equals" operator, to test for equality.
+- ```>```, the "greater than" operator, to test that the value on the left is greater than the value on the right.
+- ```<```, the "less than" operator, to test that the value on the left is less than the value on the right.
+- ```>=```, the "greater than or equal to" operator.
+- ```<=```, the "less than or equal to" operator.
+and so on
+
 A code block is defined by curly braces ```{ }```. It collects lines of code that should be treated as a single unit.
 
 The logical AND operator ```&&``` aggregates two expressions so that both subexpressions must be true in order for the entire expression to be true.
 
 The logical OR operator ```||``` aggregates two expressions so that if either subexpression is true, the entire expression is true.
+
+
