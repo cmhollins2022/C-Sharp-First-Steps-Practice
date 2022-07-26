@@ -217,7 +217,7 @@ Console.WriteLine(largerValue);
 
 Use an ```if``` statement to branch your code logic. The if decision statement will execute code in its code block if its Boolean expression equates to true. Otherwise, the runtime will skip over the code block and continue to the next line of code after the code block.
 
-A Boolean expression is any expression that returns a Boolean value.
+A Boolean expression is any expression that returns a Boolean value (```True``` or ```False```).
 Boolean operators will compare the two values on its left and right for equality, comparison, and more.
 
 A code block is defined by curly braces ```{ }```. It collects lines of code that should be treated as a single unit.
