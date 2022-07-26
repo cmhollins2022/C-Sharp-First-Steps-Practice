@@ -241,5 +241,5 @@ The combination of ```if``` and ```else``` statements allows you to test for a c
 You can nest ```if``` statements to narrow down a possible condition. However, you should consider using the ```if```, ```else```, and ```else if``` statements instead.
 
 Use else if to create multiple exclusive conditions.
-An ```else is``` optional, but it must always come last.
+An ```else``` optional, but it must always come last.
 
