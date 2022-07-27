@@ -298,6 +298,7 @@ fraudulentOrderIDs[3] = "D000";
 **Step 4 - Retrieve values of an array:**
 ```
 string[] fraudulentOrderIDs = new string[3];
+- Indexes are zero based, but when creating a new array, use the actual number of elements you want to create.
 
 fraudulentOrderIDs[0] = "A123";
 fraudulentOrderIDs[1] = "B456";
