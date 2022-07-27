@@ -277,12 +277,10 @@ else if(daysUntilExpiration == 0)
 **What is an array?**
 An array is a sequence of individual data elements accessible through a single variable name. You use a zero-based numeric index to access each element of an array. (Like a list)
 
-Step 1 - Declare a new array:
-
+**Step 1 - Declare a new array:**
 ```string[] fraudulentOrdersIDs = new string[3];```
 
-Step 2 - Assign values to elements on an array:
-
+**Step 2 - Assign values to elements on an array:**
 ```
 string[] fraudulentOrderIDs = new string[3];
 
@@ -291,13 +289,12 @@ fraudulentOrderIDs[1] = "B456";
 fraudulentOrderIDs[2] = "C789";
 ```
 
-Step 3 - Attempt to use an index that is out of bounds of the array:
-
+**Step 3 - Attempt to use an index that is out of bounds of the array:**
 ```
 fraudulentOrderIDs[3] = "D000";
 ```
 
-Step 4 - Retrieve values of an array:
+**Step 4 - Retrieve values of an array:**
 ```
 string[] fraudulentOrderIDs = new string[3];
 
@@ -328,3 +325,5 @@ fraudulentOrderIDs[0] = "F000";
 
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 ```
+
+Step 6 - Initialize an array
