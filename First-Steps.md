@@ -280,3 +280,13 @@ An array is a sequence of individual data elements accessible through a single v
 Step 1 - Declare a new array:
 
 ```string[] fraudulentOrdersIDs = new string[3];```
+
+Step 2 - Assign values to elements on an array:
+
+```
+string[] fraudulentOrderIDs = new string[3];
+
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs[1] = "B456";
+fraudulentOrderIDs[2] = "C789";
+```
