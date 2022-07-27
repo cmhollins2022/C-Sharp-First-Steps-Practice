@@ -310,3 +310,10 @@ Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
 Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
 Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
 ```
+
+Step 5 - Reassign the value of an array:
+```
+fraudulentOrderIDs[0] = "F000";
+
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+```
