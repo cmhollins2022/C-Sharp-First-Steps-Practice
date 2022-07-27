@@ -424,4 +424,12 @@ foreach (string item in fakeOrderIDs)
 - Variable names should be one or more entire words appended together.
 - Variable names shouldn't include the data type of the variable.
 
+```
+char userOption;
 
+int gameScore;
+
+float particlesPerMillion;
+
+bool processedCustomer;
+```
