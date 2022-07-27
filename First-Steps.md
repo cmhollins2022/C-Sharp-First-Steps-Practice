@@ -342,6 +342,7 @@ Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
 ```
 **Getting the Size of an Array**
+
 The ```Length``` property gives you a programmatic way to determine the number of elements in an array.
 ```
 /*
