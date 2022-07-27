@@ -433,3 +433,13 @@ float particlesPerMillion;
 
 bool processedCustomer;
 ```
+
+To further improve your code, add a comment that explains the higher-level purpose of the code.
+```
+/*
+  The following code creates five random OrderIDs
+  to test the fraud detection process.  OrderIDs 
+  consist of a letter from A to E, and a three
+  digit number. Ex. A123.
+*/
+```
