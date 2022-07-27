@@ -277,5 +277,6 @@ else if(daysUntilExpiration == 0)
 **What is an array?**
 An array is a sequence of individual data elements accessible through a single variable name. You use a zero-based numeric index to access each element of an array. (Like a list)
 
-Step 1 - Declare a new array
+Step 1 - Declare a new array:
+
 ```string[] fraudulentOrdersIDs = new string[3];```
