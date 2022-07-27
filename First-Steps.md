@@ -275,3 +275,4 @@ else if(daysUntilExpiration == 0)
 ### Store and iterate through sequences of data using Arrays and the foreach statement in C#
 
 **What is an array?**
+An array is a sequence of individual data elements accessible through a single variable name. You use a zero-based numeric index to access each element of an array. (Like a list)
