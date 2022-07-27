@@ -409,3 +409,9 @@ foreach (string item in fakeOrderIDs)
   }
 }
 ```
+###  Create readable code with conventions, whitespace, and comments in C# 
+**Variable name conventions**
+- Variable names should use camel case
+- Variable names should be descriptive and meaningful in your application. You should choose a name for your variable that represents the kind of data it will hold.
+- Variable names should be one or more entire words appended together.
+- Variable names shouldn't include the data type of the variable.
