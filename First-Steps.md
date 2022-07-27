@@ -409,9 +409,19 @@ foreach (string item in fakeOrderIDs)
   }
 }
 ```
-###  Create readable code with conventions, whitespace, and comments in C# 
+###  Create readable code with conventions, whitespace, and comments in C#
+
+
+**Variable name rules**
+- Special characters like the pound #, the dash -, and the dollar sign $ are not allowed.
+- Variable names must begin with an alphabetical letter or an underscore, not a number.
+- Variable names must NOT be a C# keyword.
+- Variable names are case-sensitive
+
 **Variable name conventions**
 - Variable names should use camel case
 - Variable names should be descriptive and meaningful in your application. You should choose a name for your variable that represents the kind of data it will hold.
 - Variable names should be one or more entire words appended together.
 - Variable names shouldn't include the data type of the variable.
+
+
