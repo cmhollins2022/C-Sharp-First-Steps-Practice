@@ -365,3 +365,7 @@ Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
 ```
+**Looping through an array using foreach**
+Step 1 - Create and initialize an array of int
+```int[] inventory = { 200, 450, 700, 175, 250 };```
+
