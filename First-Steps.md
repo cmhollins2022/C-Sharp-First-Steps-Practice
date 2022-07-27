@@ -394,3 +394,12 @@ foreach (int items in inventory)
 }
 ```
 **Step 4 - Display the final value of sum**
+```
+int [] inventory = { 200, 400, 567, 123, 325};
+int sum = 0;
+foreach (int items in inventory)
+{
+    sum += items;
+}
+Console.WriteLine($"We have {sum} items in inventory.");
+```
