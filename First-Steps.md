@@ -291,13 +291,13 @@ fraudulentOrderIDs[1] = "B456";
 fraudulentOrderIDs[2] = "C789";
 ```
 
-Step 3 - Attempt to use an index that is out of bounds of the array
+Step 3 - Attempt to use an index that is out of bounds of the array:
 
 ```
 fraudulentOrderIDs[3] = "D000";
 ```
 
-Step 4 - Retrieve values of an array
+Step 4 - Retrieve values of an array:
 ```
 string[] fraudulentOrderIDs = new string[3];
 
