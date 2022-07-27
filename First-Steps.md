@@ -394,4 +394,4 @@ foreach (int items in inventory)
 }
 Console.WriteLine($"We have {sum} items in inventory.");
 ```
-Use the ++ increment operator to add 1 to the current value of a variable.
+Use the ```++``` increment operator to add 1 to the current value of a variable.
