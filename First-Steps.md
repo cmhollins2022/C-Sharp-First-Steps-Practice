@@ -278,6 +278,7 @@ else if(daysUntilExpiration == 0)
 An array is a sequence of individual data elements accessible through a single variable name. You use a zero-based numeric index to access each element of an array. (Like a list)
 
 **Step 1 - Declare a new array:**
+
 ```string[] fraudulentOrdersIDs = new string[3];```
 
 **Step 2 - Assign values to elements on an array:**
@@ -308,7 +309,7 @@ Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
 Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
 ```
 
-Step 5 - Reassign the value of an array:
+**Step 5 - Reassign the value of an array:**
 ```
 string[] fraudulentOrderIDs = new string[3];
 
@@ -326,4 +327,4 @@ fraudulentOrderIDs[0] = "F000";
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 ```
 
-Step 6 - Initialize an array
+**Step 6 - Initialize an array**
