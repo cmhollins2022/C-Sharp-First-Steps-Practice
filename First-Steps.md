@@ -366,6 +366,29 @@ Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
 ```
 **Looping through an array using foreach**
+
 Step 1 - Create and initialize an array of int
+
 ```int[] inventory = { 200, 450, 700, 175, 250 };```
 
+Step 2 - Add a foreach statement to iterate through the array
+```
+int[] inventory = { 200, 450, 700, 175, 250 };
+
+foreach (int items in inventory)
+{
+
+}
+```
+Step 3 - Add a variable to sum the value of each element in the array
+```
+int sum = 0;
+```
+```
+int[] inventory = { 200, 450, 700, 175, 250 };
+int sum = 0;
+foreach (int items in inventory)
+{
+    sum += items;
+}
+```
