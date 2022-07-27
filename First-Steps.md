@@ -290,3 +290,9 @@ fraudulentOrderIDs[0] = "A123";
 fraudulentOrderIDs[1] = "B456";
 fraudulentOrderIDs[2] = "C789";
 ```
+
+Step 3 - Attempt to use an index that is out of bounds of the array
+
+```
+fraudulentOrderIDs[3] = "D000";
+```
